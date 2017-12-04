@@ -1,4 +1,5 @@
 #include <bcm2835.h>
+
 void main(){
 	if (!bcm2835_init())
     {
